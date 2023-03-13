@@ -1,0 +1,40 @@
+.app-container {
+  background-color: #ffc0bb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 80vh;
+}
+.heading {
+  color: #0f172a;
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.emojis-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.love-emoji {
+  width: 60px;
+  height: 50px;
+}
+.describe {
+  color: #1e293b;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
